@@ -1,0 +1,197 @@
+[
+    {
+        "module": "../..",
+        "size": {
+            ".text": 27720,
+            ".data": 444,
+            ".bss": 7894,
+            ".text-delta": 27720,
+            ".data-delta": 444,
+            ".bss-delta": 7894
+        }
+    },
+    {
+        "module": "BUILD/B_L4S5I_IOT01A",
+        "size": {
+            ".text": 24194,
+            ".data": 289,
+            ".bss": 64430,
+            ".text-delta": 24194,
+            ".data-delta": 289,
+            ".bss-delta": 64430
+        }
+    },
+    {
+        "module": "[fill]",
+        "size": {
+            ".text": 154,
+            ".data": 14,
+            ".bss": 31,
+            ".text-delta": 56,
+            ".data-delta": 6,
+            ".bss-delta": 2
+        }
+    },
+    {
+        "module": "[lib]/c.a",
+        "size": {
+            ".text": 29088,
+            ".data": 2472,
+            ".bss": 89,
+            ".text-delta": 940,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/gcc.a",
+        "size": {
+            ".text": 3436,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 332,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/m.a",
+        "size": {
+            ".text": 2552,
+            ".data": 1,
+            ".bss": 0,
+            ".text-delta": 2440,
+            ".data-delta": 1,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/misc",
+        "size": {
+            ".text": 180,
+            ".data": 4,
+            ".bss": 28,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/nosys.a",
+        "size": {
+            ".text": 32,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 32,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/stdc++.a",
+        "size": {
+            ".text": 40,
+            ".data": 0,
+            ".bss": 16,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "cmsis/CMSIS_5",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -5948,
+            ".data-delta": -164,
+            ".bss-delta": -1868
+        }
+    },
+    {
+        "module": "cmsis/device",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -950,
+            ".data-delta": -4,
+            ".bss-delta": -4344
+        }
+    },
+    {
+        "module": "connectivity/FEATURE_BLE",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -84,
+            ".data-delta": 0,
+            ".bss-delta": -40
+        }
+    },
+    {
+        "module": "drivers/source",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -140,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "hal/source",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -1602,
+            ".data-delta": -8,
+            ".bss-delta": -114
+        }
+    },
+    {
+        "module": "platform/source",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -4458,
+            ".data-delta": -260,
+            ".bss-delta": -424
+        }
+    },
+    {
+        "module": "storage/blockdevice",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -36,
+            ".data-delta": 0,
+            ".bss-delta": -4
+        }
+    },
+    {
+        "module": "targets/TARGET_STM",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -12692,
+            ".data-delta": -8,
+            ".bss-delta": -1100
+        }
+    },
+    {
+        "summary": {
+            "static_ram": 75712,
+            "static_ram_delta": 64728,
+            "total_flash": 90620,
+            "total_flash_delta": 30100
+        }
+    }
+]
