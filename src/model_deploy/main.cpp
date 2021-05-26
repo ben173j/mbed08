@@ -16,6 +16,8 @@
 constexpr int kTensorArenaSize = 60 * 1024;
 uint8_t tensor_arena[kTensorArenaSize];
 
+Config config;
+
 // Return the result of the last prediction
 int PredictGesture(float* output) {
   // How many times the most recent gesture has been matched in a row
@@ -57,7 +59,16 @@ int PredictGesture(float* output) {
 }
 
 int main(int argc, char* argv[]) {
+  
+    config.seq_length=64;
+    
+    config.consecutiveInferenceThresholds[0]=25;
+    config.consecutiveInferenceThresholds[1]=10;
+    config.consecutiveInferenceThresholds[2]=10;
 
+    config.output_message[0]="UP";
+    config.output_message[1]="DOWN";
+    config.output_message[2]="DOWN"; 
   // Whether we should clear the buffer next time we fetch data
   bool should_clear_buffer = false;
   bool got_data = false;
